@@ -8,13 +8,11 @@
     <link rel="apple-touch-icon" href="./assets/logo.svg">
     <title>SN Security - Learn Hacking. Secure Future.</title>
     <meta name="description" content="SN Security - Lost phone report, OSINT tools, cyber safety platform. Secure your digital identity.">
-    <link rel="preload" href="./style.css" as="style" onload="this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="./style.css"></noscript>
+    <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Rajdhani:wght@300;400;500;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
-    <link rel="preload" href="https://unpkg.com/aos@2.3.1/dist/aos.css" as="style" onload="this.rel='stylesheet'">
-    <noscript><link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"></noscript>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="preload" href="https://mgx-backend-cdn.metadl.com/generate/images/456529/2025-12-28/95d1b703-6e39-4193-98d3-d4574da58c11.png" as="image">
         <style>
             /* Homepage notification marquee - placed above logo inside navbar
@@ -46,17 +44,11 @@
             </div>
         </div>
         <div class="nav-container">
-            <div class="nav-logo">
-                    <a href="./index.html" class="nav-home" aria-label="SN Security Home">
-                    <img src="./assets/logo.svg" alt="SN Security Logo" width="40" height="40" decoding="async" loading="lazy">
-                    <span>SN Security</span>
-                </a>
-            </div>
-            <div class="nav-toggle" id="navToggle">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
+            <a href="./index.html" class="nav-logo" aria-label="SN Security Home">
+                <img src="./assets/logo.svg" alt="SN Security Logo" width="40" height="40" decoding="async" loading="lazy">
+                <span>SN Security</span>
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation"><span></span><span></span><span></span></button>
             <ul class="nav-menu" id="navMenu">
                 <li><a href="./index.html" class="nav-link active">Home</a></li>
                 <li><a href="./roadmap.html" class="nav-link">Roadmap</a></li>

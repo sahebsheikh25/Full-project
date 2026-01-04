@@ -1,3 +1,5 @@
+:root{}
+@import url('./store.css');
 /* ===== CSS Variables ===== */
 :root {
     --bg-primary: #010913;

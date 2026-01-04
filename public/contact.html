@@ -8,8 +8,7 @@
     <link rel="icon" href="./assets/logo.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="./assets/logo.svg">
       <meta name="description" content="SN Security - Lost phone report, OSINT tools, cyber safety platform. Secure your digital identity.">
-      <link rel="preload" href="./style.css" as="style" onload="this.rel='stylesheet'">
-      <noscript><link rel="stylesheet" href="./style.css"></noscript>
+      <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Rajdhani:wght@300;400;500;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
@@ -59,25 +58,19 @@
 
     <nav class="navbar" role="navigation" aria-label="Main navigation">
       <div class="nav-container">
-        <div class="nav-logo">
-          <a href="./index.html" class="nav-home" aria-label="SN Security Home">
-            <img src="assets/logo.svg" alt="SN Security Logo" width="40" height="40" decoding="async" loading="lazy">
-            <span>SN Security</span>
-          </a>
-        </div>
-        <div class="nav-toggle" id="navToggle" aria-controls="navMenu" aria-expanded="false">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
+        <a href="./index.html" class="nav-logo" aria-label="SN Security Home">
+          <img src="./assets/logo.svg" alt="SN Security Logo" width="40" height="40" decoding="async" loading="lazy">
+          <span>SN Security</span>
+        </a>
+        <button class="nav-toggle" id="navToggle" aria-controls="navMenu" aria-expanded="false"><span></span><span></span><span></span></button>
         <ul class="nav-menu" id="navMenu">
-          <li><a href="index.html" class="nav-link">Home</a></li>
-          <li><a href="/roadmap.html" class="nav-link">Roadmap</a></li>
-          <li><a href="tools.html" class="nav-link">Tools</a></li>
-          <li><a href="tech-store.html" class="nav-link">Store</a></li>
-          <li><a href="ctf-news.html" class="nav-link">CTF & News</a></li>
-          <li><a href="osint.html" class="nav-link">OSINT</a></li>
-          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="./index.html" class="nav-link">Home</a></li>
+          <li><a href="./roadmap.html" class="nav-link">Roadmap</a></li>
+          <li><a href="./tools.html" class="nav-link">Tools</a></li>
+          <li><a href="./tech-store.html" class="nav-link">Store</a></li>
+          <li><a href="./ctf-news.html" class="nav-link">CTF & News</a></li>
+          <li><a href="./osint.html" class="nav-link">OSINT</a></li>
+          <li><a href="./about.html" class="nav-link">About</a></li>
           <li><a href="contact.html" class="nav-link active">Contact</a></li>
         </ul>
       </div>
@@ -207,7 +200,7 @@
             <h3>Quick Links</h3>
             <ul class="footer-links">
               <li><a href="index.html">Home</a></li>
-              <li><a href="/roadmap.html">Roadmap</a></li>
+              <li><a href="./roadmap.html">Roadmap</a></li>
               <li><a href="tools.html">Tools</a></li>
               <li><a href="osint.html">OSINT</a></li>
             </ul>
@@ -223,9 +216,9 @@
           <div class="footer-section">
             <h3>Legal</h3>
             <ul class="footer-links">
-              <li><a href="/legal.html">Privacy Policy</a></li>
-              <li><a href="/legal.html">Terms of Service</a></li>
-              <li><a href="/legal.html">Disclaimer</a></li>
+              <li><a href="./legal.html">Privacy Policy</a></li>
+              <li><a href="./legal.html">Terms of Service</a></li>
+              <li><a href="./legal.html">Disclaimer</a></li>
             </ul>
           </div>
         </div>
@@ -262,7 +255,7 @@
       });
     });
     </script>
-    <script src="/script.js" defer></script>
+    <script src="./script.js" defer></script>
   </body>
   </html>
 

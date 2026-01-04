@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Courses – SN Security</title>
   <link rel="stylesheet" href="./style.css">
-  <link rel="stylesheet" href="./store.css">
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Rajdhani:wght@300;400;600&display=swap" rel="stylesheet">
   <style>
     .back-btn{display:inline-flex;align-items:center;gap:10px;padding:10px 14px;border-radius:10px;border:1px solid rgba(255,255,255,0.06);background:linear-gradient(90deg,rgba(255,255,255,0.02),rgba(255,255,255,0.01));color:var(--text-primary);font-weight:800;text-decoration:none;box-shadow:0 6px 18px rgba(0,0,0,0.28);transition:transform .14s ease,box-shadow .14s ease}
@@ -16,17 +15,11 @@
 <body>
 <nav class="navbar">
   <div class="nav-container">
-    <div class="nav-logo">
-      <a href="index.html" class="nav-home" aria-label="SN Security Home">
-        <img src="assets/logo.svg" alt="SN Security" width="40" height="40" decoding="async" loading="lazy">
-        <span>SN Security</span>
-      </a>
-    </div>
-    <div class="nav-toggle" id="navToggle">
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
+    <a href="./index.html" class="nav-logo" aria-label="SN Security Home">
+      <img src="./assets/logo.svg" alt="SN Security" width="40" height="40" decoding="async" loading="lazy">
+      <span>SN Security</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation"><span></span><span></span><span></span></button>
     <ul class="nav-menu" id="navMenu">
       <li><a href="./index.html" class="nav-link">Home</a></li>
       <li><a href="./roadmap.html" class="nav-link">Roadmap</a></li>
